@@ -16,13 +16,14 @@ Este proyecto demuestra cómo desplegar un sitio web estático utilizando **Amaz
 
 ## 📁 Estructura del proyecto
 
+```plaintext
 aws-s3-static-site/
 ├── web/
-│ └── index.html
+│   └── index.html
 ├── iam/
-│ └── policy.json
+│   └── policy.json
 ├── screenshots/
-│ └── (capturas del proceso)
+│   └── (capturas del proceso)
 └── README.md
 
 ---
