@@ -55,7 +55,7 @@ aws-s3-static-site/
 
 ### 4️⃣ Creación del archivo de política IAM
 ![Crear política](screenshots/04-crear-politica.png)
-![Editar archivo policy.json](screenshots/04b-editar-politica.png)
+![Editar archivo policy.json](screenshots/editar_politica.png)
 
 ### 5️⃣ Hosting activado y archivo subido correctamente
 ![Activar hosting](screenshots/05-activar-hosting-subir.png)
