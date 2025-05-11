@@ -25,7 +25,7 @@ aws-s3-static-site/
 ├── screenshots/
 │   └── (capturas del proceso)
 └── README.md
-
+```
 ---
 
 ## 🚀 Pasos realizados
