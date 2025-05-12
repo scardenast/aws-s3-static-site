@@ -81,6 +81,8 @@ aws-s3-static-site/
 
 🔗 [`http://aws-static-site-1746951788.s3-website-us-east-1.amazonaws.com`](http://aws-static-site-1746951788.s3-website-us-east-1.amazonaws.com)
 
+⚠️ Por motivos de seguridad, el bucket ya fue cerrado.
+
 ---
 
 ## 👤 Autor
