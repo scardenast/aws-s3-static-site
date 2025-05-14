@@ -1,16 +1,22 @@
-# 🌐 AWS S3 Static Site
+# Sitio Web Estático en S3 con AWS
 
-Este proyecto demuestra cómo desplegar un sitio web estático utilizando **Amazon S3** y **AWS CLI**, configurando permisos públicos mediante políticas IAM. Forma parte de mi ruta de aprendizaje como **AWS Cloud Practitioner**.
+Este laboratorio consistió en desplegar un sitio web estático utilizando Amazon S3. El objetivo fue entender cómo funciona el almacenamiento en la nube de AWS y cómo puede configurarse un bucket para alojar archivos HTML públicos de manera segura.
+
+## 🛠️ Qué hice
+
+- Creé un bucket S3 con nombre único.
+- Activé la opción de hosting estático.
+- Subí los archivos del sitio (HTML, CSS).
+- Configuré los permisos públicos del bucket.
+- Probé el acceso desde el navegador a la URL generada por AWS.
 
 ---
 
-## 🔧 Servicios y herramientas utilizadas
+## 🔍 Lo que aprendí
 
-- **Amazon S3** – Almacenamiento de archivos estáticos y hosting web
-- **AWS CLI** – Línea de comandos para gestionar recursos en AWS
-- **IAM Policy** – Control de acceso mediante políticas JSON
-- **Linux/WSL** – Entorno de desarrollo local en Ubuntu
-- **Git + GitHub** – Control de versiones y publicación del proyecto
+- Cómo gestionar políticas de acceso a nivel de bucket.
+- Por qué es importante revisar si un bucket es público y qué implicancias tiene.
+- Que aunque el sitio esté accesible, AWS recomienda aplicar medidas adicionales si el contenido es sensible.
 
 ---
 
@@ -28,17 +34,11 @@ aws-s3-static-site/
 ```
 ---
 
-## 🚀 Pasos realizados
+## 🔗 Tecnologías usadas
 
-1. Crear carpeta del proyecto y estructura inicial
-2. Escribir un archivo `index.html` con HTML personalizado
-3. Crear bucket en S3 con un nombre dinámico
-4. Activar el hosting estático en el bucket
-5. Subir el archivo `index.html` con `aws s3 cp`
-6. Crear y aplicar una política pública (`policy.json`)
-7. Desactivar el bloqueo de acceso público desde la consola AWS
-8. Comprobar acceso web desde navegador
-9. Documentar todo el proceso con capturas y subir a GitHub
+- AWS S3
+- Interfaz web de AWS
+- HTML estático
 
 ---
 
@@ -77,25 +77,6 @@ aws-s3-static-site/
 
 ---
 
-## 🌍 URL del sitio desplegado
-
-🔗 [`http://aws-static-site-1746951788.s3-website-us-east-1.amazonaws.com`](http://aws-static-site-1746951788.s3-website-us-east-1.amazonaws.com)
-
-⚠️ Por motivos de seguridad, el bucket ya fue cerrado.
-
----
-
-## 👤 Autor
-
-**Sebastián Cárdenas**  
-*Aspirante a AWS Cloud Practitioner | Analista Programador*
-
 📫 Contacto: [sebastian.cardenas.t@gmail.com](mailto:sebastian.cardenas.t@gmail.com)
-
----
-
-## ✅ Resultado
-
-Repositorio funcional, documentado, versionado en Git y publicado como parte de mi portafolio técnico.
 
 
