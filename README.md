@@ -2,7 +2,7 @@
 
 Este laboratorio consistió en desplegar un sitio web estático utilizando Amazon S3. El objetivo fue entender cómo funciona el almacenamiento en la nube de AWS y cómo puede configurarse un bucket para alojar archivos HTML públicos de manera segura.
 
-## 🛠️ Qué hice
+## ¿Qué hice?
 
 - Creé un bucket S3 con nombre único.
 - Activé la opción de hosting estático.
@@ -12,15 +12,7 @@ Este laboratorio consistió en desplegar un sitio web estático utilizando Amazo
 
 ---
 
-## 🔍 Lo que aprendí
-
-- Cómo gestionar políticas de acceso a nivel de bucket.
-- Por qué es importante revisar si un bucket es público y qué implicancias tiene.
-- Que aunque el sitio esté accesible, AWS recomienda aplicar medidas adicionales si el contenido es sensible.
-
----
-
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```plaintext
 aws-s3-static-site/
@@ -34,7 +26,7 @@ aws-s3-static-site/
 ```
 ---
 
-## 🔗 Tecnologías usadas
+## Tecnologías usadas
 
 - AWS S3
 - Interfaz web de AWS
@@ -42,7 +34,7 @@ aws-s3-static-site/
 
 ---
 
-## 📸 Capturas del proceso completo
+## Capturas del proceso completo
 
 ### 1️⃣ Estructura del proyecto creada
 ![Estructura de carpetas](screenshots/01-crear-carpeta.png)
@@ -77,6 +69,14 @@ aws-s3-static-site/
 
 ---
 
-📫 Contacto: [sebastian.cardenas.t@gmail.com](mailto:sebastian.cardenas.t@gmail.com)
+## Lo que aprendí
+
+- Cómo gestionar políticas de acceso a nivel de bucket.
+- Por qué es importante revisar si un bucket es público y qué implicancias tiene.
+- Que aunque el sitio esté accesible, AWS recomienda aplicar medidas adicionales si el contenido es sensible.
+
+---
+
+Contacto: [sebastian.cardenas.t@gmail.com](mailto:sebastian.cardenas.t@gmail.com)
 
 
